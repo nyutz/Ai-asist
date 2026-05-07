@@ -2,7 +2,6 @@
 # STEP 1: SETUP (UNSLOTH)
 # ==========================================
 
-%%capture
 import os, re
 if "COLAB_" not in "".join(os.environ.keys()):
     !pip install unsloth  # Do this in local & cloud setups
